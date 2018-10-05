@@ -348,6 +348,7 @@ public class GuiWorldCreator extends Gui{
 		}
 	}
 	
+	@SuppressWarnings("unlikely-arg-type")
 	@Override
 	public void rightClick(Point mouse){
 		markedPoint = getMouse();
